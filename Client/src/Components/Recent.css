@@ -1,0 +1,45 @@
+.recent-arts{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+     flex-wrap: wrap;
+    width: 1700px;
+    align-items: center;
+    margin-left:150px;
+    margin-top: 100px;
+    
+}
+
+
+.recent-title{
+    margin-left:170px;
+}
+
+.recent-art{
+    display: block;
+    
+    width: 290px;
+    height: 400px;
+    margin:70px 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.recent-art>h3,h4,p{
+    margin: 15px;
+   
+}
+
+.recent-art>h4{
+    color:#505050;
+}
+
+.recent-art>img{
+    width: 290px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    padding:1px;
+
+     
+}

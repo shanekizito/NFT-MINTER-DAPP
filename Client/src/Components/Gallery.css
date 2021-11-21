@@ -14,6 +14,8 @@ html {
     margin-left:auto;
     margin-right: 230px;
   
+  
+  
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -135,3 +137,26 @@ html {
       25px 25px rgba(4, 140, 231, 0.05);
   }
   
+
+  @media (max-width: 1024px) {
+    .image-grid {
+      -webkit-transform: rotateX(0deg) rotateZ(0deg);
+      transform: rotateX(0deg) rotateZ(0deg);
+      
+    }
+
+
+
+    .grid{
+      width: 200px;
+      margin-left:-220px;
+     
+      margin-right:0px;
+    }
+
+    .image-grid {
+      
+      -webkit-perspective: 200px;
+      perspective: 200px;
+    }
+  }

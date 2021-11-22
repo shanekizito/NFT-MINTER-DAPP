@@ -198,49 +198,12 @@ function App() {
                   </div>
                 ) : (
                   <>
-                    <p>
-                      {feedback}
+                  <div className="account-address">
+                    <p   >
+                     {truncate(blockchain.account, 15)}
                     </p>
-                  
-                    <div className="container">
-                      <button
-                        style={{ lineHeight: 0.4 }}
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          decrementMintAmount();
-                        }}
-                      >
-                        -
-                      </button>
-                      
-                      <p>
-                        {mintAmount}
-                      </p>
-                    
-                      <button
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          incrementMintAmount();
-                        }}
-                      >
-                        +
-                      </button>
                     </div>
                    
-                    <div className="container">
-                      <button className="minting-button"
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          claimNFTs();
-                          getData();
-                        }}
-                      >
-                        {claimingNft ? "Minting..." : "6+"}
-                      </button>
-                    </div>
                   </>
                 )}
               </>

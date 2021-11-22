@@ -20,15 +20,15 @@ const Recent = () => {
             <div className="recent-art">
             <img src={ethereum}/>
             <h3 className="recent-art-collection">PixL Summer</h3>
-            <h4 className="recent-art-title">Ethers </h4>
-            <p className="recent-art-price">150E</p>
+            <h4 className="recent-art-title">Oracle</h4>
+            <p className="recent-art-price"><i class="fab fa-ethereum"></i>150E</p>
             </div>
 
             <div className="recent-art">
             <img src={girl}/>
             <h3 className="recent-art-collection">PixL Summer </h3>
             <h4 className="recent-art-title">Skyboi </h4>
-            <p className="recent-art-price">12E </p>
+            <p className="recent-art-price"><i class="fab fa-ethereum"></i>12E </p>
             </div>
 
 
@@ -36,7 +36,7 @@ const Recent = () => {
             <img src={cute}/>
             <h3 className="recent-art-collection">PixL Summer </h3>
             <h4 className="recent-art-title">Muffins </h4>
-            <p className="recent-art-price">35E </p>
+            <p className="recent-art-price"><i class="fab fa-ethereum"></i>35E </p>
             </div>
 
 
@@ -44,14 +44,14 @@ const Recent = () => {
             <img src={alien}/>
             <h3 className="recent-art-collection">PixL Summer </h3>
             <h4 className="recent-art-title">Blue Ranger </h4>
-            <p className="recent-art-price">46E </p>
+            <p className="recent-art-price"><i class="fab fa-ethereum"></i>46E </p>
             </div>
 
             <div className="recent-art">
             <img src={hiking}/>
             <h3 className="recent-art-collection">PixL Summer </h3>
             <h4 className="recent-art-title">Journey </h4>
-            <p className="recent-art-price">112E </p>
+            <p className="recent-art-price"><i class="fab fa-ethereum"></i>112E </p>
             </div>
 
 

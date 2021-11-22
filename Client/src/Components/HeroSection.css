@@ -3,6 +3,7 @@
 
 .hero-section{
     border-bottom: 1px solid rgba(218, 218, 219, 0.144);
+    background-image: url(../Assets/graph.jpg)   ;
    
 }
 
@@ -25,16 +26,16 @@
 
 .fab{
     margin:20px 0px 20px;
-    font-size:30px;
-    color:rgba(0, 0, 0, 0.52);
+    font-size:25px;
+    color:rgba(246, 246, 246, 0.561);
+    padding:0px;
 }
 
 .fab:hover{
-   border-bottom:1px solid rgb(236, 236, 236);
+    color:white;
     cursor:pointer;
-    color:rgb(0, 0, 0);
+    
 }
-
  
 
 .hero-image>img{
@@ -213,4 +214,50 @@
         -0.04em -0.025em 0 #fffc00;
     }
   }
+  
+
+  @media screen and (max-width: 1024px) {
+    .glitch {
+      font-size: 2.0rem;
+    }
+
+    .hero-section{
+      width:380px;
+       
+      justify-content:center;
+      overflow:hidden;
+    }
+
+    .hero-section-texts{
+      width:120px;
+    }
+
+    .hero-section-socials{
+      width:55px;
+      margin-left:-145px;
+      padding:5px 18px;
+    }
+    .fab{
+      font-size:1.5rem;
+
+    }
+
+    .glitch{
+       
+      width:200px;
+      display:flex;
+      flex-direction:row;
+      margin-left:20px;
+      margin-top:280px
+      
+    }
+
+    .hero-section-buttons{
+      margin-top:50px;
+      width: 150px;
+      display:block;
+    }
+
+  }
+    
   

@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1500px; 
+    max-width: 300px; 
  
   }
   
@@ -17,7 +17,9 @@
   }
 
   .Sign-up-button{
-
+   display:flex;
+   align-items:center;
+   justify-content:center;
     background-color: rgb(255, 255, 255);
     border:none;
     height:50px;
@@ -27,6 +29,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius:5px;
     color: rgb(63, 63, 63);
+    margin-left
+    : 220px;
    }
 
    .Sign-up-button:hover{
@@ -37,7 +41,7 @@
   .navbar-logo {
     color: rgb(255, 255, 255); 
     justify-self: start;
-    margin-left: -210px;
+    margin-left: -20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;

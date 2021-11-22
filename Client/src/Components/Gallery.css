@@ -30,8 +30,8 @@ html {
   }
   
   .image-grid {
-    -webkit-transform: rotateX(45deg) rotateZ(45deg);
-    transform: rotateX(45deg) rotateZ(45deg);
+  
+     
     -webkit-perspective: 900px;
     perspective: 900px;
   }
@@ -150,13 +150,18 @@ html {
     .grid{
       width: 200px;
       margin-left:-220px;
-     
+  
       margin-right:0px;
+      margin-top:50px;
     }
 
     .image-grid {
       
       -webkit-perspective: 200px;
       perspective: 200px;
+    }
+
+    .grid-block {
+      margin-top:-40px;
     }
   }

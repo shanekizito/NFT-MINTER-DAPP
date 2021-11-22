@@ -153,8 +153,9 @@
   /* Variables */
   /* Base */
   body {
-    background: #252827;
+    background: #000000;
     font-size: 16px;
+   
   }
   p {
     font-weight: 300;
@@ -246,4 +247,16 @@
     height: 250px;
     border-radius: 5px;
 
+  }
+
+
+  @media  screen and (max-width: 1024px) {
+    .timeline {
+      max-width: 100%;
+    }
+
+    .event>img{
+      width: 200px;
+      height: auto;
+    }
   }

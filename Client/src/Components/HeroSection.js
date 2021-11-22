@@ -23,8 +23,8 @@ const HeroSection = () => {
             </p>
             </div>
             <div className="hero-section-buttons">
-            <button className="btn minting">Start minting</button>
-            <button className="btn learn">Learn More</button>
+            <button className="btn minting">SEE GALLERY</button>
+           
             </div>
             </div>
              

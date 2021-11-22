@@ -10,36 +10,26 @@ const Timeline = () => {
     return (
         <div>
            <div id="timeline-content">
-  <h1>Timeline</h1>
+  <h1>About PixL Summer</h1>
   
   <ul class="timeline">
-    <li class="event" data-date="65Million B.C.">
-      <h3>Dinosaurs Roamed the Earth</h3>
+    <li class="event"  >
+      <h3>Limited set of 1000</h3>
       <img src={HeroCard1}></img>
-      <p>Limited Swag
-
-There will only ever be 6,666 Cyber Nekos for you
- to adopt so act fast before swag runs out! 🏃 🐢🦂</p>
+      <p>There will only be 1000 pieces from the collection.Grab a few before they run out 🏃 🐢🦂</p>
     </li>
 
-    <li class="event" data-date="65Million B.C.">
-      <h3>Dinosaurs Roamed the Earth</h3>
+    <li class="event"  >
+      <h3>Earn tokens for future whitelisting </h3>
       <img src={car}/>
-      <p>Swag level over 9000
-
-All Cyber Nekos deserve a special place in everyone's heart, some are rarer than others. If you're lucky, your Neko will
- wear a Fantom hat while puking rainbow. 🌈🐢🦂</p>
+      <p>Owning a piece from this collection will enable you to get whitelosted privilages like presale ownership on upcoming sets🦂</p>
     </li>
 
-    <li class="event" data-date="65Million B.C.">
-      <h3>Dinosaurs Roamed the Earth</h3>
+    <li class="event" >
+      <h3>Art</h3>
       <img src={tree}></img>
-      <p>Nekos hate looking alike
-
-Each Neko is generated from a list of rarities distribution. Including background, body, fur, eyes, mask, etc...🐢🦂</p>
+      <p>This collections were drawn by our artists after getting inspiration from great cryptogod lord Kek .🐢🦂</p>
     </li>
-     
-    
      
   </ul>
 </div> 

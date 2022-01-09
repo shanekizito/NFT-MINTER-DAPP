@@ -179,6 +179,7 @@ function App() {
                     <button className="minting-button"
                       onClick={(e) => {
                         e.preventDefault();
+                        console.log('clicked');
                         dispatch(connect());
                         getData();
                       }}  
@@ -189,7 +190,7 @@ function App() {
                     {blockchain.errorMsg !== "" ? (
                       <>
                         
-                        <p>
+                        <p className="error-message">
                         
                           {blockchain.errorMsg}
                           </p>

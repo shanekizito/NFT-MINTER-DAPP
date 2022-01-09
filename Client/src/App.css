@@ -98,4 +98,16 @@
     display:block;
   }
 }
-  
+
+.error-message{
+  color:red;
+  margin-left:100px;
+}
+@media screen and (min-width: 1024px) {
+  .error-message{
+    font-size:25px;
+    font-weight:bold;
+    margin-top:-3300px;
+    margin-left:520px;
+  }
+}

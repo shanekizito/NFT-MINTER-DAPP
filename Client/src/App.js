@@ -19,7 +19,6 @@ const truncate = (input, len) =>
  
 
 
- 
 
 function App() {
   const dispatch = useDispatch();
@@ -141,9 +140,7 @@ function App() {
   
         <div className='responsive-wrapper'>
           
-           
-            
-            
+                    
               < div className="Link" route={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </div>

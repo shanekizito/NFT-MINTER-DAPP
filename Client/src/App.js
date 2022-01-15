@@ -197,8 +197,8 @@ function App() {
                 ) : (
                   <>
                   <div className="account-address">
-                    <p   >
-                     {truncate(blockchain.account, 15)}
+                    <p>
+                     {truncate(blockchain.account, 20)}
                     </p>
                     </div>
                    
@@ -212,22 +212,6 @@ function App() {
          
         </div>
         
-        <div className="container">
-          <p>
-
-            Please make sure you are connected to the right network (
-            {CONFIG.NETWORK.NAME} Mainnet) and the correct address.
-          </p>
-          </div>
-          
-          <p
-             
-          >
-           ...pending
-          </p>
-        
-    
-    
     </>
     
   );

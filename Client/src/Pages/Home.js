@@ -13,9 +13,8 @@ function Home() {
     <>
       <HeroSection />
       <Recent/>
-      <Timeline/>
       <Team/>
-      
+  
     </>
   );
 }

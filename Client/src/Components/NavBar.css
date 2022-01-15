@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 10px;
     max-width: 300px; 
  
   }
@@ -41,7 +41,7 @@
   .navbar-logo {
     color: rgb(255, 255, 255); 
     justify-self: start;
-    margin-left: -20px;
+    margin-left: 500px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -107,7 +107,11 @@
   @media screen and (max-width: 1023px) {
 
    
-    
+    .navbar-socials {
+      display: flex;
+      flex-direction: row;
+      margin-left: 00px;
+  }
         .Sign-up-button{
           display:none;
         }
@@ -179,15 +183,16 @@
     }
   
     .navbar-logo {
+      
       position: relative;
        margin:0px 90px 40px 0px;
       transform: translate(25%, 50%);
     }
-  
+
     .menu-icon {
       display: block;
       position: absolute;
-      margin:0px 270px 40px 0px ;
+      margin:0px 870px 40px 0px ;
       color:black;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
@@ -232,6 +237,7 @@
     height: 80px;
     display: flex;
     flex-direction: row;
+    width:1000px;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
@@ -241,4 +247,19 @@
     color: rgba(255, 255, 255, 0.787); 
   }
   
+  .navbar-socials>i{
+    color:rgb(214, 208, 208);
+    margin-left:40px;
+    font-size:25px;
+  }
+  
+  .fab:hover{
+      color:white;
+      cursor:pointer;
+      
+  }
+  .navbar-socials{
+    display:flex;flex-direction:row;
+    margin-left:400px;
+  }
   

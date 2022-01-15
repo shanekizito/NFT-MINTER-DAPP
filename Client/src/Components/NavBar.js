@@ -33,9 +33,14 @@ function NavBar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Retreo
-            <i className='fab fa-typo3' />
+            CL.
+          
           </Link>
+          <div className='navbar-socials'>
+          <i class="fab fa-discord"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-telegram"></i>
+          </div>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>

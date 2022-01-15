@@ -181,7 +181,7 @@ function App() {
                         getData();
                       }}  
                     >
-                      CONNECT
+                     connect wallet
                     </button>
 
                     {blockchain.errorMsg !== "" ? (
@@ -212,6 +212,22 @@ function App() {
          
         </div>
         
+        <div className="container">
+          <p>
+
+            Please make sure you are connected to the right network (
+            {CONFIG.NETWORK.NAME} Mainnet) and the correct address.
+          </p>
+          </div>
+          
+          <p
+             
+          >
+           ...pending
+          </p>
+        
+    
+    
     </>
     
   );

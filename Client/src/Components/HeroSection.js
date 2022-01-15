@@ -1,34 +1,36 @@
 import React from 'react'
 import HeroCard1 from '../Assets/HeroCard1.jpg'
-import tree from '../Assets/tree.jpg'
-import arandom from '../Assets/arandom.jpg'
+import green from '../Assets/green.png'
+import pink1 from '../Assets/pink1.png'
+import sunny from '../Assets/sunny.png'
+import orange from '../Assets/orange.png'
+
 import './HeroSection.css'
-import  Gallery from './Gallery'
+
 
 const HeroSection = () => {
     return (
         <div className="hero-section">
-            <div className="hero-section-texts">
-            <div className="hero-section-socials">
-            <i class="fab fa-discord"></i>
-            <i class="fab fa-twitter"></i>  
-            <i class="fab fa-instagram"></i>
+            <div className="hero-section-text">
+                <h1>
+                We are the Comfy Llamas
+                </h1>
+                <h3>
+               A collection of  1 0 , 0 0 0  Llamas keeping it Comfy and Stylish in the NFT space
+                </h3>
+                <button className="action-btn">Mint a Llama <i class="fas fa-external-link-square-alt"></i></button>
             </div>
-            
-            <div class="Hero-text-container">
-            <p class="glitch">
-            <span aria-hidden="true">The most anticipated  NFT collections</span>
-            The most anticipated  NFT collections
-            <span aria-hidden="true">The most anticipated  NFT collections</span>
-            </p>
-            </div>
-            <div className="hero-section-buttons">
-            <button className="btn minting">SEE GALLERY</button>
-           
-            </div>
+            <div className="hero-section-cards">
+               <div className="hero-card img1" >
+                <img src={green}/>
+                </div>
+                <div className="hero-card img2">
+                <img src={orange}/>
+                </div>
+                
             </div>
              
-            <Gallery/>
+            
         </div>
     )
 }

@@ -13,7 +13,7 @@
   cursor: pointer;
   border: none;
   margin-left: 1350px;
-  margin-top: -2113px;
+  margin-top: -2213px;
   height: 50px;
   width: 140px;
   justify-self: center;
@@ -77,35 +77,43 @@
   .account-address{
     position:fixed;
  
-    bottom: 0;
+    top: 0;
     right: 0;
     border-left: none;
     border-right:none;
     border-bottom:none;
     width:100vw;
-    margin:2px;
+    margin:300px;
+    margin-top:-10px;
+    font-size:20px;
     overflow:hidden;
     
   }
 
   .minting-button{
     position: relative;
-    margin-top:-4980px;
-    margin-left: 130px;
-    width: 130px;
+    margin-top:-3000px;
+    margin-left:570px;
+    width: 190px;
+    font-size:20px;height:50px;
+    font-style:bold;
     display:block;
   }
 }
 
 .error-message{
   color:red;
-  margin-left:100px;
+  margin-left:300px;
+  width:200px;
+  margin-top:-45px;
+  font-size:25px;
+  
 }
 @media screen and (min-width: 1024px) {
   .error-message{
     font-size:25px;
     font-weight:bold;
-    margin-top:-3300px;
+    margin-top:-2230px;
     margin-left:520px;
   }
 }
